@@ -117,4 +117,49 @@
 #how-it-works{
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding-top: 0.8rem;
+    height: 100vh;
+    background-color: #f9fafb;
+    color: #1f2937;
+    line-height: 3.5rem;
+}
+
+#works-container h2{
+    font-size: 2.5rem;
+    padding-bottom: 0.8rem;
+}
+
+#works-container h3{
+    font-size: 1.5rem;
+}
+
+#works-container p{
+    font-size: 1.5rem;
+}
+
+/*Why Choose Us*/
+
+#why-choose-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9fafb;
+    color: #1f2937;
+    padding-top: 0.8rem;
+    line-height: 3.5rem;
+}
+
+#choose-us-container h2{
+    font-size: 2.5rem;
+    padding-bottom: 0.8rem;
+}
+
+#choose-us-container h3{
+    font-size: 1.5rem;
+}
+
+#choose-us-container p{
+    font-size: 1.5rem;
 }
