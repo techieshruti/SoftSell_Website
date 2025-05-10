@@ -8,7 +8,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #f7f9fc;
+    position: static;
 }
 
 .nav-links {
@@ -17,15 +18,46 @@
   align-items: end; 
   gap: 1.5rem;
   margin-right: 3.5rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .nav-links a{
-  color: white;
+  color: #1f2937;
   text-decoration: none;
+}
+
+.nav-links a:hover{
+  color: #2563eb;
+  font-size: 1.4rem;
+  transition: 0.3s ease-out, color 0.3s ease-out;
 }
 
 .logo img{
     width: 70px;
     max-height: 100%;
+    margin-left: 0.5rem;
+}
+
+/*hero section*/
+
+#hero{
+    background: linear-gradient(135deg, #bacadd, #f0f9ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+}
+
+#hero-content{
+    padding: 2rem;
+    margin: 0 auto;
+    line-height: 3rem;
+}
+
+#hero-content h1{
+    font-size: 3.5rem;
+}
+
+#hero-content p{
+    font-size: 2rem;
 }
