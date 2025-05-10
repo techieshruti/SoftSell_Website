@@ -4,71 +4,28 @@
     padding: 0;
 }
 
-#navbar{
-    background-color: #f8fafc;
+.navbar{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    border: gray 200;
+    align-items: center;
+    background-color: black;
 }
 
-#nav_links a{
-    text-decoration: none;
-    color: #1f2937;
-    padding: 20px;
-    font-size: 20px;
-}
-
-#nav_links a:hover{
-    color: #2563eb;
-    font-size: 20.5px;
-    transition:ease-out;
-    transition: all 200ms ease-out;
-}
-
-/* hero section */
-:root {
-  --text-secondary: #4b5563;
-  --button-bg: #2563eb;
-  --button-text: #ffffff;
-}
-
-
-#hero {
-  min-height: 80vh;
+.nav-links {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
-  text-align: center;
-  
+  list-style: none;
+  align-items: end; 
+  gap: 1.5rem;
+  margin-right: 3.5rem;
+  font-size: 1.2rem;
 }
 
-.hero-content h1 {
-  font-size: 5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.hero-content p {
-  font-size: 5rem;
-  color: var(--text-secondary);
-  margin-bottom: 30px;
-  line-height: 1.6;
-}
-
-.cta-button {
-  display: inline-block;
-  padding: 14px 28px;
-  background-color: var(--button-bg);
-  color: var(--button-text);
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
+.nav-links a{
+  color: white;
   text-decoration: none;
-  transition: background 0.3s ease;
 }
 
-.cta-button:hover {
-  background-color: var(--button-hover);
+.logo img{
+    width: 70px;
+    max-height: 100%;
 }
