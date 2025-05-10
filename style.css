@@ -4,14 +4,14 @@
     padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  padding-top: 80px; 
 }
 
-.navbar{
-    width: 100%;
+#navbar{
     height: 80px;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: #f7f9fc;
@@ -55,14 +55,14 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    scroll-margin-top: 80px;
-    padding-top: calc(80px + 7rem);
+    scroll-margin-top: 60px;
+    padding-top: calc(60px + 7rem);
 }
 
 #hero-content{
     padding: 2rem;
     margin: 0 auto;
-    line-height: 4.2rem;
+    line-height: 3.2rem;
 }
 
 #hero-content h1{
@@ -129,6 +129,7 @@ html {
     background-color: #f9fafb;
     color: #1f2937;
     line-height: 3.5rem;
+    padding-top: 2rem;
 }
 
 #works-container h2{
@@ -154,6 +155,7 @@ html {
     color: #1f2937;
     scroll-margin-top: 80px;
     line-height: 3.5rem;
+    padding-top: 2rem;
 }
 
 #choose-us-container h2{
@@ -180,7 +182,7 @@ html {
     align-items: center;
     background-color: #f9fafb;
     color: #1f2937;
-    padding-top: 0.8rem;
+    padding-top: 3rem;
 }
 
 #testimonials-container h2{
@@ -197,11 +199,17 @@ html {
     align-items: center;
     background-color: #f9fafb;
     color: #1f2937;
-    padding-top: 0.8rem;
+    padding-top: 1rem;
     scroll-margin-top: 80px;
-    padding: 6rem 2rem;
+    padding: 0;
 }
 
 #contact-container h2{
     font-size: 2.5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
