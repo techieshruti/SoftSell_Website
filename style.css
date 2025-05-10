@@ -163,3 +163,23 @@
 #choose-us-container p{
     font-size: 1.5rem;
 }
+
+/*testimonials*/
+
+#testimonials-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9fafb;
+    color: #1f2937;
+    padding-top: 0.8rem;
+}
+
+#testimonials-container h2{
+    font-size: 2.5rem;
+    padding-bottom: 0.8rem;
+    margin-left: 1.5rem;
+}
+
+/*testimonials*/
