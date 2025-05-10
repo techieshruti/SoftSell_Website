@@ -63,7 +63,7 @@ No build tools or package managers are needed!
 
 ## 📸 Screenshots
 
-_Add screenshots here to showcase the layout on desktop and mobile._
+![SoftSell Website Screenshot](./Capture.PNG)
 
 ---
 
