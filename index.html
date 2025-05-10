@@ -9,29 +9,90 @@
 <body>
     <!--navbar-->
     <header>
-        <nav id="navbar">
-        <div id="logo">
-            <h1>SoftSell</h1>
-        </div>
-        <div id="nav_links">
-            <a href="#About Us">About Us</a>
-            <a href="How It Works">How It Works</a>
-            <a href="Why Us">Why Us</a>
-            <a href="Testimonials">Testimonials </a>
-            <a href="Contact">Contact</a>
-        </div>
-    </nav>
+        <nav class="containter">
+            <div class="logo">
+                <a href="#">Softsell</a>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="why-us">Why Us</a></li>
+                    <li><a href="testimonials">Testimonials</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+            </div>
+        </nav>
     </header>
 
     <!--hero section-->
     <section id="hero">
         <div id="hero-content">
+            <h3>Trusted by thousands worldwide</h3>
             <h1>Turn Unused Software Into Cash</h1>
-            <h3>SoftSell helps you sell your old software licenses quickly and easily.</h3>
+            <P>SoftSell helps you sell your old software licenses quickly and easily.</P>
             <a href="#contact" class="cta-button">Sell My Licenses</a>
         </div>
     </section>
+<br><br>
 
+    <!--how-it-works-->
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <h3>Step 1: Upload License</h3>
+        <p>💻 Upload your unused software license details in seconds.</p>
+        <h3>Step 2: Get Valuation</h3>
+        <p>📊 Instantly receive a market-based offer for your license.</p>
+        <h3>Step 3: Get Paid</h3>
+        <p>💰 Accept the offer and get paid securely, fast.</p>
+    </section>
+<br><br>
+
+    <!--Why Choose Us-->
+    <section id="why-choose-us">
+        <h2>Why Choose SoftSell?</h2>
+        <p>👥 Over 1,000 satisfied software sellers worldwide.</p>
+        <h3>✅ 1. Trusted by Thousands</h3>
+        <p>🔐 End-to-end encryption to protect your data and payments.</p>
+        <h3>🔒 2. Secure Transactions</h3>
+        <h3>⚡ 3. Fast Payouts</h3>
+        <p>⏱️ Get paid within 48 hours of license approval.</p>
+        <h3>💬 4. Dedicated Support</h3>
+        <p>💬 Our team is available 24/7 to help you with every step.</p>
+    </section>
+<br><br>
+
+<!--testimonials-->
+    <section id="testimonials"></section>
+
+
+    <br><br>
+<!--contact-->
+    <section id="contact">
+        <h3>Get in Touch or Sell Your License Today</h3><br>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name"><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email"><br><br>
+            <label for="company">Company Name</label>
+            <input type="text" id="company" placeholder="Enter Company Name"><br><br>
+            <label for="license">License Type</label>
+            <select id="license">
+                <option value="Adobe">Adobe</option>
+                <option value="Microsoft">Microsoft Office</option>
+                <option value="Autodesk">Autodesk</option>
+                <option value="Antivirus Software">Antivirus Software</option>
+                <option value="Other">Other</option>
+            </select> <br><br>
+            <label for="message">Message</label>
+            <textarea id="message">Message</textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
     <script src="app.js"></script>
 </body>
